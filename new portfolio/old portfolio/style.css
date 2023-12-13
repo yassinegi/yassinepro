@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@200&family=Shadows+Into+Light&family=Varela+Round&display=swap');
+*{re
+    font-family:  'Big Shoulders Inline Text', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Varela Round', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgba(209, 209, 237, 0.951) ;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: rgb(73, 73, 205);
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: rgba(123, 0, 255, 0.869);
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(362179127_953739419184465_2821680941478799826_n.jpg) no-repeat;
+    background-size:contain;
+    background-position:right;
+}
+.main h2{
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgba(82, 82, 189, 0.982);
+    font-weight: 600;
+    font-size: 3em;
+}
+.main h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    background-color: rgba(147, 45, 191, 0.729);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: rgb(184, 136, 210);
+    transform: scale(1.1);
+}
+.social-icons a{
+    color: blue;
+    font-size: 1.7em;
+    margin-right: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(82, 74, 186);
+    margin-bottom: 40px;
+    font-size: 2.2em;
+    font-weight: 600;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 270px;
+    box-shadow: 0 5px 25px rgba( 1 1 1/15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.icon{
+    color: rgb(119, 119, 215);
+    text-align: center;
+    font-size: 8em;
+}
+.info p{
+    margin-top: 20px;
+    text-align: center;
+}
+.info h3{
+    color: rgb(125, 125, 228);
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+
+}
+.projects.content{
+    margin-top: 30px;
+}
+.project-card{
+    
+    background-color: white;
+    border: 2px solid rgb(107, 61, 179);
+    min-height: 14em;
+    width: 400px;
+    
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.project-card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+.project-image img{
+    width: 100%;
+}
+.project-info{
+    padding: 1em;
+}
+.project-category{
+    font-size: 0.8em;
+    color: black;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details{
+    text-decoration: none;
+    color: rgb(116, 84, 190);
+}
+.more-details:hover{
+    color: blue;
+}
+.icon1{
+    font-size:4.5em ;
+    color: rgb(119, 119, 215);
+    text-align: center;
+}
+.footer{
+    background-color: rgba(209, 209, 237, 0.951) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: azure;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer-title span{
+    color: rgb(28, 28, 82);
+}
+@media(max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main-content h2{
+        font-size: 1em;
+    }
+    .main-content h3{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:641px) {
+    body{
+        font-size: 12px;
+    }
+    .main-content h2{
+        font-size: 0.8em
+    }
+    .main-content h3{
+        font-size: 1.4em;
+
+    }
+}
+@media(max-width:300px){
+    body{
+        font-size: 10px;
+    }
+}
+

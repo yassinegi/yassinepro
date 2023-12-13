@@ -1,0 +1,66 @@
+.key{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    color: aliceblue;
+    margin: 5px;
+    border-radius: 20px;
+    transition: all 0.2s;
+    
+}
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    
+}
+kbd{
+    padding-top: 10px;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-bottom: 70px;
+}
+span{
+    margin-left: 40px;
+}
+.playing{
+    transform: scale(1.1);
+    background-color: blueviolet;
+    opacity: 0.5;
+    border: solid 1px black ;
+}
+body {
+    margin: 0;
+    /* Assurez-vous qu'il n'y a pas de marges extérieures sur le corps */
+    padding: 0;
+    /* Assurez-vous qu'il n'y a pas de rembourrage sur le corps */
+
+    /* Ajoutez le chemin de votre image d'arrière-plan et d'autres propriétés d'arrière-plan ici */
+    background: url('bgimg.jpg') center/cover fixed no-repeat;
+    position: relative;
+    /* Assurez-vous que la position est définie sur relative ou absolue pour que ::before fonctionne correctement */
+
+    /* Opacité appliquée à l'arrière-plan de l'image */
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Définissez ici la couleur d'arrière-plan souhaitée avec l'opacité */
+    z-index: -1;
+    /* Placez-le en arrière de l'ensemble du contenu du corps */
+}
+.title{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}

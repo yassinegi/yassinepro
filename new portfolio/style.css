@@ -1,0 +1,190 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: lightblue;
+}
+
+.grey{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(71, 68, 68);
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.links{
+    margin-left: 300px;
+}
+.links a {
+    text-decoration: none;
+    color: lightslategray;
+    font-size: 18px;
+    margin-left: 80px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name{
+    color: grey;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 150px;
+}
+.name h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(35, 174, 221);
+    margin-left: 20px;
+}
+.name a {
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.links a:hover{
+    background-color: rgb(35, 174, 221);
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    transition: 0.7s ease;
+    
+}
+.main{
+    background-color: lightblue;
+    width: 100%;
+    
+}
+.header{
+    margin-bottom: 30px;
+}
+.btme{
+    font-family:  Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    color: #21A9AB;
+}
+.presentation{
+    display: flex;
+    align-items: center;
+}
+.paragraph{
+    margin-left: 50px;
+}
+.paragraph h3{
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.paragraph h4{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#6D0BF3 ;
+}
+.paragraph p{
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    width: 600px;
+    
+}
+.card{
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+    background-color: #F19462;
+    padding: 20px;
+    border-radius: 30px;
+}
+.card h4{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.skills{
+    display: flex;
+    margin-top: 40px;
+}
+.projet{
+    width: 80%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 140px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-bottom: 50px;
+    transition: 0.5s ease;
+
+}
+.projet h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.projet p {
+    text-align: center;
+    letter-spacing: 1px;
+}
+.projet a {
+    text-decoration: none;
+    color: #6505F7;
+    font-weight: 700;
+    margin-left: 1000px;
+
+
+}
+.carta{
+    width: 300px;
+    height: 300px;
+    background-color: #B7F1EE;
+    border-radius: 41px;
+    margin-left:115px ;
+
+}
+.carta i {
+   font-size: 200px;
+   margin: 50px 0px 0px 50px;
+}
+#contact {
+    display: flex;
+    margin-bottom: 30px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(71, 68, 68);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.projet:hover{
+    height: 65px;
+    width: 83%;
+}
+
+button {
+    background-color: #21A9AB;
+    color:white;
+    border-radius: 50%;
+    border:none;
+    outline: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    padding: 20px;
+    font-size:24px;
+    cursor: pointer;
+    display: none;
+}
+button:hover{
+    background-color: #21a9aba8;
+}

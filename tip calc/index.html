@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Tip calculator</h1>
+    <div class="container">
+        <p class="p1">Bill Total</p>
+        <div class="champ1">
+            <span>$</span>
+            <input id="billinp" class="in1" type="text" placeholder="0.00" onkeyup="calcbill()"
+                onkeydown="moveToNextInput(event,'tipinp')">
+        </div>
+
+        <p class="p2">Tip</p>
+        <div class="champ2">
+            <span>%</span>
+            <input id="tipinp" class="in2" type="text" placeholder="10" onkeyup="calcbill()">
+        </div>
+
+        <p class="p3">People</p>
+        <div style="display: flex;">
+            <button style="margin-left: 70px;" onclick="increment()">+</button>
+            <div id="numpep" style="color: white; font-size: 20px; padding: 0 5px;padding-top: 7px;">1</div>
+            <button onclick="discrement()">-</button>
+        </div>
+        <div class="ress">
+            <p class="p4">Total Per Person</p>
+            <div id="result" class="res">$0.00</div>
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
